@@ -1,2 +1,2 @@
 # MobileTechServices
-Web APIs for MobileTech mobile app
+Web APIs for MobileTech mobile app.
