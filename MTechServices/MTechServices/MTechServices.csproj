@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7986B968-79C9-42C7-9616-489AD6D99B09}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MTechServices</RootNamespace>
+    <AssemblyName>MTechServices</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Prasad\MTechServices\MTechServices\bin\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Web.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.2\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.2\lib\net45\System.Web.Webpages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Deployment">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.2\lib\net45\System.Web.Webpages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.2\lib\net45\System.Web.Webpages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Helpers">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.2\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Mvc">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.2\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.2\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.2\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.2\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Global.asax" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AccountsController.cs" />
+    <Compile Include="Controllers\AssetsController.cs" />
+    <Compile Include="Controllers\AuthenticationServiceController.cs" />
+    <Compile Include="Controllers\ControlCenterCodesController.cs" />
+    <Compile Include="Controllers\FacilitiesController.cs" />
+    <Compile Include="Controllers\FaultCentersController.cs" />
+    <Compile Include="Controllers\FaultsController.cs" />
+    <Compile Include="Controllers\FilterController.cs" />
+    <Compile Include="Controllers\OpenWorkStatusCodesController.cs" />
+    <Compile Include="Controllers\PDADBIDController.cs" />
+    <Compile Include="Controllers\RequestCentersController.cs" />
+    <Compile Include="Controllers\RequestCodesController.cs" />
+    <Compile Include="Controllers\ResultCentersController.cs" />
+    <Compile Include="Controllers\ResultsController.cs" />
+    <Compile Include="Controllers\SecurityController.cs" />
+    <Compile Include="Controllers\TestController.cs" />
+    <Compile Include="Controllers\TimeTypeController.cs" />
+    <Compile Include="Controllers\UrgencyCodesController.cs" />
+    <Compile Include="Controllers\ValidRequestsResultsController.cs" />
+    <Compile Include="Controllers\VersionDetailsController.cs" />
+    <Compile Include="Controllers\WorkersController.cs" />
+    <Compile Include="Controllers\WorkOrderController.cs" />
+    <Compile Include="Controllers\WOTextController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AuthHeader.cs" />
+    <Compile Include="Models\AuthUtility.cs" />
+    <Compile Include="Models\DAL\ConfigDAL.cs" />
+    <Compile Include="Models\DAL\SessionDAL.cs" />
+    <Compile Include="Models\DAL\SQLHelper.cs" />
+    <Compile Include="Models\DAL\UserDAL.cs" />
+    <Compile Include="Models\Entity\Account.cs" />
+    <Compile Include="Models\Entity\Area.cs" />
+    <Compile Include="Models\Entity\Asset.cs" />
+    <Compile Include="Models\Entity\DeviceCategory.cs" />
+    <Compile Include="Models\Entity\Facility.cs" />
+    <Compile Include="Models\Entity\Fault.cs" />
+    <Compile Include="Models\Entity\Filter.cs" />
+    <Compile Include="Models\Entity\GlobalData.cs" />
+    <Compile Include="Models\Entity\Material.cs" />
+    <Compile Include="Models\Entity\MaterialCategory.cs" />
+    <Compile Include="Models\Entity\Model.cs" />
+    <Compile Include="Models\Entity\OpenWorkStatus.cs" />
+    <Compile Include="Models\Entity\PDADBID.cs" />
+    <Compile Include="Models\Entity\PMTest.cs" />
+    <Compile Include="Models\Entity\PurchaseUnits.cs" />
+    <Compile Include="Models\Entity\Request.cs" />
+    <Compile Include="Models\Entity\Result.cs" />
+    <Compile Include="Models\Entity\Room.cs" />
+    <Compile Include="Models\Entity\Security.cs" />
+    <Compile Include="Models\Entity\ServiceCenter.cs" />
+    <Compile Include="Models\Entity\Setup.cs" />
+    <Compile Include="Models\Entity\Source.cs" />
+    <Compile Include="Models\Entity\SyncParams.cs" />
+    <Compile Include="Models\Entity\SystemCode.cs" />
+    <Compile Include="Models\Entity\Urgency.cs" />
+    <Compile Include="Models\Entity\User.cs" />
+    <Compile Include="Models\Entity\UserDefinedField.cs" />
+    <Compile Include="Models\Entity\Worker.cs" />
+    <Compile Include="Models\Entity\WorkerType.cs" />
+    <Compile Include="Models\Entity\WorkOrder.cs" />
+    <Compile Include="Models\Entity\WOSignature.cs" />
+    <Compile Include="Models\Resource.cs" />
+    <Compile Include="Models\TimeZoneCalc.cs" />
+    <Compile Include="Models\Utilities.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\web.config" />
+    <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\MTechServicesTest.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>53620</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/MTechServices</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,46 @@
+1/22/2015 11:35:57 AM Successfully connected to Web Service URL: http://192.168.1.177/mtechservices
+1/22/2015 11:35:57 AM Login User Name/Session Id: SCMUSERE / 9f0c9d31-9cbe-4652-95a6-586fc271849d
+1/22/2015 11:40:36 AM Successfully connected to Web Service URL: http://192.168.1.177/mtechservices
+1/22/2015 11:40:36 AM Login User Name/Session Id: SCMUSERE / 213a4ab4-abbe-441a-8123-49fa0c3c70b2
+1/22/2015 11:41:07 AM Updated WorkOrder: 1-94686
+1/22/2015 11:41:16 AM Successfully PDADBID Updated on Server : 2CF880E0-83C1-414E-887A-FFEABE869AA1
+1/22/2015 11:41:35 AM Updated WorkOrder: 1-94686
+1/22/2015 11:41:42 AM Successfully PDADBID Updated on Server : 2CF880E0-83C1-414E-887A-FFEABE869AA1
+1/22/2015 11:42:54 AM Updated WorkOrder: 1-94686
+1/22/2015 11:43:05 AM System.Net.WebException: The remote server returned an error: (409) Conflict.
+  at System.Net.HttpWebRequest.CheckFinalStatus (System.Net.WebAsyncResult result) [0x0033b] in ///Library/Frameworks/Xamarin.iOS.framework/Versions/8.4.0.43/src/mono/mcs/class/System/System.Net/HttpWebRequest.cs:1718 
+  at System.Net.HttpWebRequest.SetResponseData (System.Net.WebConnectionData data) [0x00165] in ///Library/Frameworks/Xamarin.iOS.framework/Versions/8.4.0.43/src/mono/mcs/class/System/System.Net/HttpWebRequest.cs:1485 
+1/22/2015 11:43:05 AM UploadExceptionLogFromDevice UploadWorkOrder Exception: The remote server returned an error: (409) Conflict.
+1/22/2015 11:51:55 AM Successfully connected to Web Service URL: http://192.168.1.177/mtechservices
+1/22/2015 11:51:55 AM Login User Name/Session Id: SCMUSERE / c558a124-7ba2-4b1e-8105-03a64c438cfc
+1/22/2015 11:52:07 AM Updated WorkOrder: 1-94686
+1/22/2015 11:52:10 AM Updated WorkOrder: 1-94686
+1/22/2015 11:52:16 AM Successfully PDADBID Updated on Server : 2CF880E0-83C1-414E-887A-FFEABE869AA1
+1/22/2015 11:52:21 AM Successfully PDADBID Updated on Server : 2CF880E0-83C1-414E-887A-FFEABE869AA1
+1/22/2015 11:53:45 AM Updated WorkOrder: 1-94686
+1/22/2015 11:54:31 AM System.Net.WebException: The remote server returned an error: (409) Conflict.
+  at System.Net.HttpWebRequest.CheckFinalStatus (System.Net.WebAsyncResult result) [0x0033b] in ///Library/Frameworks/Xamarin.iOS.framework/Versions/8.4.0.43/src/mono/mcs/class/System/System.Net/HttpWebRequest.cs:1718 
+  at System.Net.HttpWebRequest.SetResponseData (System.Net.WebConnectionData data) [0x00165] in ///Library/Frameworks/Xamarin.iOS.framework/Versions/8.4.0.43/src/mono/mcs/class/System/System.Net/HttpWebRequest.cs:1485 
+1/22/2015 11:54:31 AM UploadExceptionLogFromDevice UploadWorkOrder Exception: The remote server returned an error: (409) Conflict.
+1/22/2015 11:56:30 AM Successfully connected to Web Service URL: http://192.168.1.177/mtechservices
+1/22/2015 11:56:30 AM Login User Name/Session Id: SCMUSERE / 9486f4ec-22b8-4a3c-aec1-87023fece18c
+1/22/2015 12:10:56 PM Successfully connected to Web Service URL: http://192.168.1.177/mtechservices
+1/22/2015 12:10:56 PM Login User Name/Session Id: SCMUSERE / 4967eba6-177e-49b7-889e-74f492c204a2
+1/22/2015 12:11:10 PM Updated WorkOrder: 1-94686
+1/22/2015 12:11:12 PM Updated WorkOrder: 1-94686
+1/22/2015 12:11:19 PM Successfully PDADBID Updated on Server : 2CF880E0-83C1-414E-887A-FFEABE869AA1
+1/22/2015 12:11:26 PM Successfully PDADBID Updated on Server : 2CF880E0-83C1-414E-887A-FFEABE869AA1
+1/22/2015 12:12:07 PM Updated WorkOrder: 1-94686
+1/22/2015 12:12:24 PM System.Net.WebException: The remote server returned an error: (409) Conflict.
+  at System.Net.HttpWebRequest.CheckFinalStatus (System.Net.WebAsyncResult result) [0x0033b] in ///Library/Frameworks/Xamarin.iOS.framework/Versions/8.4.0.43/src/mono/mcs/class/System/System.Net/HttpWebRequest.cs:1718 
+  at System.Net.HttpWebRequest.SetResponseData (System.Net.WebConnectionData data) [0x00165] in ///Library/Frameworks/Xamarin.iOS.framework/Versions/8.4.0.43/src/mono/mcs/class/System/System.Net/HttpWebRequest.cs:1485 
+1/22/2015 12:12:24 PM UploadExceptionLogFromDevice UploadWorkOrder Exception: The remote server returned an error: (409) Conflict.
+1/22/2015 12:35:08 PM Successfully connected to Web Service URL: http://192.168.1.177/mtechservices
+1/22/2015 12:35:08 PM Login User Name/Session Id: SCMUSERE / b7544785-87d4-454e-a668-3af243c07e73
+1/22/2015 12:35:12 PM User logged out or his session got terminated: scmusere/2CF880E0-83C1-414E-887A-FFEABE869AA1/b7544785-87d4-454e-a668-3af243c07e73.
+1/22/2015 12:41:34 PM Successfully connected to Web Service URL: http://192.168.1.177/mtechservices
+1/22/2015 12:41:34 PM Login User Name/Session Id: SCMUSERE / 9f636c0b-7f1e-4410-9762-2ade6f29b30a
+1/22/2015 12:41:43 PM User logged out or his session got terminated: scmusere/2CF880E0-83C1-414E-887A-FFEABE869AA1/9f636c0b-7f1e-4410-9762-2ade6f29b30a.
+1/22/2015 12:43:53 PM Successfully connected to Web Service URL: http://192.168.1.177/mtechservices
+1/22/2015 12:43:53 PM Login User Name/Session Id: SCMUSERE / 79e72b70-e26d-4af6-9bdd-60982a43b6ff
+1/22/2015 12:44:28 PM User logged out or his session got terminated: scmusere/2CF880E0-83C1-414E-887A-FFEABE869AA1/79e72b70-e26d-4af6-9bdd-60982a43b6ff.
