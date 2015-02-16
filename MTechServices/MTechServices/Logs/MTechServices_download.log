@@ -4940,3 +4940,87 @@
 2015-02-13 11:40:31,244 [MTechServices] [51] INFO  MTechServices.Models.DAL.ConfigDAL - GetFilters(1000000168) Execute Time: 0 ms
 [MTechServices Start]
 [MTechServices Stop]
+[MTechServices Start]
+2015-02-16 15:20:42,859 [MTechServices] [26] INFO  MTechServices.Models.DAL.ConfigDAL - GetDeletedSecurities(02/16/2015 14:14:18) Execute Time: 0 ms
+2015-02-16 15:20:43,061 [MTechServices] [23] INFO  MTechServices.Models.DAL.ConfigDAL - GetSecurities(02/16/2015 14:14:18) Execute Time: 0 ms
+2015-02-16 15:20:43,413 [MTechServices] [26] INFO  MTechServices.Models.DAL.ConfigDAL - GetDeletedUrgency(02/16/2015 14:14:18) Execute Time: 0 ms
+2015-02-16 15:20:43,438 [MTechServices] [23] INFO  MTechServices.Models.DAL.ConfigDAL - GetUrgencyCodes(02/16/2015 14:14:18) Execute Time: 0 ms
+2015-02-16 15:20:44,072 [MTechServices] [26] INFO  MTechServices.Models.DAL.ConfigDAL - GetDeletedRequests(02/16/2015 14:14:18) Execute Time: 0 ms
+2015-02-16 15:20:44,094 [MTechServices] [23] INFO  MTechServices.Models.DAL.ConfigDAL - GetRequests(02/16/2015 14:14:18) Execute Time: 0 ms
+2015-02-16 15:20:44,129 [MTechServices] [24] INFO  MTechServices.Models.DAL.ConfigDAL - GetDeletedOpenWorkStatuses(02/16/2015 14:14:18) Execute Time: 0 ms
+2015-02-16 15:20:44,156 [MTechServices] [29] INFO  MTechServices.Models.DAL.ConfigDAL - GetOpenWorkStatuses(02/16/2015 14:14:18) Execute Time: 0 ms
+2015-02-16 15:20:44,263 [MTechServices] [24] INFO  MTechServices.Models.DAL.ConfigDAL - GetDeletedControlCenters(02/16/2015 14:14:18) Execute Time: 0 ms
+2015-02-16 15:20:44,323 [MTechServices] [29] INFO  MTechServices.Models.DAL.ConfigDAL - GetControlCenters(02/16/2015 14:14:18) Execute Time: 16 ms
+2015-02-16 15:20:44,375 [MTechServices] [24] INFO  MTechServices.Models.DAL.ConfigDAL - GetDeletedAssets(02/16/2015 14:16:21) Execute Time: 0 ms
+2015-02-16 15:20:44,453 [MTechServices] [29] INFO  MTechServices.Models.DAL.ConfigDAL - GetAssets(02/16/2015 14:16:21) Execute Time: 46 ms
+2015-02-16 15:20:44,537 [MTechServices] [24] INFO  MTechServices.Models.DAL.ConfigDAL - GetDeletedAccounts(02/16/2015 14:14:19) Execute Time: 0 ms
+2015-02-16 15:20:44,570 [MTechServices] [29] INFO  MTechServices.Models.DAL.ConfigDAL - GetAccounts(02/16/2015 14:14:19) Execute Time: 15 ms
+2015-02-16 15:20:44,615 [MTechServices] [24] INFO  MTechServices.Models.DAL.ConfigDAL - GetDeletedWorkOrders(02/16/2015 14:16:22) Execute Time: 0 ms
+2015-02-16 15:20:44,625 [MTechServices] [29] INFO  MTechServices.Controllers.AccountsController - GetWorkOrders/lastSyncTime => 
+16-02-2015 14:16:22
+2015-02-16 15:20:44,690 [MTechServices] [29] INFO  MTechServices.Models.DAL.ConfigDAL - GetWorkOrders(02/16/2015 14:16:22) Execute Time: 46 ms
+2015-02-16 15:20:44,826 [MTechServices] [23] INFO  MTechServices.Models.DAL.ConfigDAL - GetDeletedResults(02/16/2015 14:14:21) Execute Time: 0 ms
+2015-02-16 15:20:44,844 [MTechServices] [29] INFO  MTechServices.Models.DAL.ConfigDAL - GetResults(02/16/2015 14:14:21) Execute Time: 0 ms
+2015-02-16 15:20:44,875 [MTechServices] [23] INFO  MTechServices.Models.DAL.ConfigDAL - GetDeletedResultCenters(02/16/2015 14:14:21) Execute Time: 0 ms
+2015-02-16 15:20:44,907 [MTechServices] [29] INFO  MTechServices.Models.DAL.ConfigDAL - GetResultCenters(02/16/2015 14:14:21) Execute Time: 0 ms
+2015-02-16 15:20:44,963 [MTechServices] [23] INFO  MTechServices.Models.DAL.ConfigDAL - GetDeletedFaults(02/16/2015 14:14:21) Execute Time: 0 ms
+2015-02-16 15:20:44,989 [MTechServices] [24] INFO  MTechServices.Models.DAL.ConfigDAL - GetFaults(02/16/2015 14:14:21) Execute Time: 0 ms
+2015-02-16 15:20:45,021 [MTechServices] [23] INFO  MTechServices.Models.DAL.ConfigDAL - GetDeletedFaultCenters(02/16/2015 14:14:21) Execute Time: 16 ms
+2015-02-16 15:20:45,046 [MTechServices] [24] INFO  MTechServices.Models.DAL.ConfigDAL - GetRequestCenters(02/16/2015 14:14:21) Execute Time: 0 ms
+2015-02-16 15:20:45,089 [MTechServices] [23] INFO  MTechServices.Models.DAL.ConfigDAL - GetDeletedRequestCenters(02/16/2015 14:14:21) Execute Time: 0 ms
+2015-02-16 15:20:45,118 [MTechServices] [24] INFO  MTechServices.Models.DAL.ConfigDAL - GetRequestCenters(02/16/2015 14:14:21) Execute Time: 15 ms
+2015-02-16 15:20:45,153 [MTechServices] [23] INFO  MTechServices.Models.DAL.ConfigDAL - GetDeletedValidRequestsResults(02/16/2015 14:14:21) Execute Time: 0 ms
+2015-02-16 15:20:45,185 [MTechServices] [24] INFO  MTechServices.Models.DAL.ConfigDAL - GetValidRequestsResults(02/16/2015 14:14:21) Execute Time: 0 ms
+2015-02-16 15:20:45,233 [MTechServices] [23] INFO  MTechServices.Models.DAL.ConfigDAL - GetDeletedWOTexts(02/16/2015 14:14:21) Execute Time: 15 ms
+2015-02-16 15:20:45,285 [MTechServices] [24] INFO  MTechServices.Models.DAL.ConfigDAL - GetWOTexts(02/16/2015 14:14:21) Execute Time: 31 ms
+2015-02-16 15:20:45,357 [MTechServices] [23] INFO  MTechServices.Models.DAL.ConfigDAL - GetDeletedTimeTypes(02/16/2015 14:14:21) Execute Time: 0 ms
+2015-02-16 15:20:45,386 [MTechServices] [24] INFO  MTechServices.Models.DAL.ConfigDAL - GetTimeTypes(02/16/2015 14:14:21) Execute Time: 0 ms
+2015-02-16 15:20:45,422 [MTechServices] [23] INFO  MTechServices.Models.DAL.ConfigDAL - GetDeletedWorkers(02/16/2015 12:48:49) Execute Time: 0 ms
+2015-02-16 15:20:45,451 [MTechServices] [24] INFO  MTechServices.Models.DAL.ConfigDAL - GetWorkers(02/16/2015 12:48:49) Execute Time: 0 ms
+2015-02-16 15:20:45,507 [MTechServices] [23] INFO  MTechServices.Models.DAL.ConfigDAL - GetDeletedFacilities(02/16/2015 14:08:15) Execute Time: 15 ms
+2015-02-16 15:20:45,539 [MTechServices] [24] INFO  MTechServices.Models.DAL.ConfigDAL - GetFacilities(02/16/2015 14:08:15) Execute Time: 15 ms
+2015-02-16 15:20:46,204 [MTechServices] [26] INFO  MTechServices.Controllers.AccountsController - GetFilters/secprimaryID => 
+1000000257
+2015-02-16 15:20:46,211 [MTechServices] [26] INFO  MTechServices.Models.DAL.ConfigDAL - GetFilters(1000000257) Execute Time: 15 ms
+2015-02-16 15:23:36,125 [MTechServices] [24] INFO  MTechServices.Models.DAL.ConfigDAL - GetDeletedSecurities(02/16/2015 15:18:38) Execute Time: 0 ms
+2015-02-16 15:23:36,162 [MTechServices] [29] INFO  MTechServices.Models.DAL.ConfigDAL - GetSecurities(02/16/2015 15:18:38) Execute Time: 16 ms
+2015-02-16 15:23:36,229 [MTechServices] [23] INFO  MTechServices.Models.DAL.ConfigDAL - GetDeletedUrgency(02/16/2015 15:18:40) Execute Time: 0 ms
+2015-02-16 15:23:36,244 [MTechServices] [34] INFO  MTechServices.Models.DAL.ConfigDAL - GetUrgencyCodes(02/16/2015 15:18:40) Execute Time: 0 ms
+2015-02-16 15:23:36,289 [MTechServices] [27] INFO  MTechServices.Models.DAL.ConfigDAL - GetDeletedRequests(02/16/2015 15:18:40) Execute Time: 16 ms
+2015-02-16 15:23:36,318 [MTechServices] [33] INFO  MTechServices.Models.DAL.ConfigDAL - GetRequests(02/16/2015 15:18:40) Execute Time: 16 ms
+2015-02-16 15:23:36,351 [MTechServices] [26] INFO  MTechServices.Models.DAL.ConfigDAL - GetDeletedOpenWorkStatuses(02/16/2015 15:18:40) Execute Time: 16 ms
+2015-02-16 15:23:36,377 [MTechServices] [24] INFO  MTechServices.Models.DAL.ConfigDAL - GetOpenWorkStatuses(02/16/2015 15:18:40) Execute Time: 0 ms
+2015-02-16 15:23:36,413 [MTechServices] [29] INFO  MTechServices.Models.DAL.ConfigDAL - GetDeletedControlCenters(02/16/2015 15:18:40) Execute Time: 15 ms
+2015-02-16 15:23:36,443 [MTechServices] [23] INFO  MTechServices.Models.DAL.ConfigDAL - GetControlCenters(02/16/2015 15:18:40) Execute Time: 16 ms
+2015-02-16 15:23:36,475 [MTechServices] [34] INFO  MTechServices.Models.DAL.ConfigDAL - GetDeletedAssets(02/16/2015 14:16:21) Execute Time: 16 ms
+2015-02-16 15:23:36,519 [MTechServices] [29] INFO  MTechServices.Models.DAL.ConfigDAL - GetAssets(02/16/2015 14:16:21) Execute Time: 16 ms
+2015-02-16 15:23:36,574 [MTechServices] [26] INFO  MTechServices.Models.DAL.ConfigDAL - GetDeletedAccounts(02/16/2015 15:18:41) Execute Time: 0 ms
+2015-02-16 15:23:36,593 [MTechServices] [34] INFO  MTechServices.Models.DAL.ConfigDAL - GetAccounts(02/16/2015 15:18:41) Execute Time: 0 ms
+2015-02-16 15:23:36,614 [MTechServices] [29] INFO  MTechServices.Models.DAL.ConfigDAL - GetDeletedWorkOrders(02/16/2015 14:16:22) Execute Time: 15 ms
+2015-02-16 15:23:36,619 [MTechServices] [23] INFO  MTechServices.Controllers.AccountsController - GetWorkOrders/lastSyncTime => 
+16-02-2015 14:16:22
+2015-02-16 15:23:36,641 [MTechServices] [23] INFO  MTechServices.Models.DAL.ConfigDAL - GetWorkOrders(02/16/2015 14:16:22) Execute Time: 16 ms
+2015-02-16 15:23:36,740 [MTechServices] [24] INFO  MTechServices.Models.DAL.ConfigDAL - GetDeletedResults(02/16/2015 15:18:41) Execute Time: 16 ms
+2015-02-16 15:23:36,755 [MTechServices] [27] INFO  MTechServices.Models.DAL.ConfigDAL - GetResults(02/16/2015 15:18:41) Execute Time: 16 ms
+2015-02-16 15:23:36,777 [MTechServices] [33] INFO  MTechServices.Models.DAL.ConfigDAL - GetDeletedResultCenters(02/16/2015 15:18:41) Execute Time: 0 ms
+2015-02-16 15:23:36,799 [MTechServices] [26] INFO  MTechServices.Models.DAL.ConfigDAL - GetResultCenters(02/16/2015 15:18:41) Execute Time: 0 ms
+2015-02-16 15:23:36,847 [MTechServices] [24] INFO  MTechServices.Models.DAL.ConfigDAL - GetDeletedFaults(02/16/2015 15:18:41) Execute Time: 0 ms
+2015-02-16 15:23:36,862 [MTechServices] [34] INFO  MTechServices.Models.DAL.ConfigDAL - GetFaults(02/16/2015 15:18:41) Execute Time: 0 ms
+2015-02-16 15:23:36,882 [MTechServices] [27] INFO  MTechServices.Models.DAL.ConfigDAL - GetDeletedFaultCenters(02/16/2015 15:18:41) Execute Time: 0 ms
+2015-02-16 15:23:36,898 [MTechServices] [33] INFO  MTechServices.Models.DAL.ConfigDAL - GetRequestCenters(02/16/2015 15:18:41) Execute Time: 0 ms
+2015-02-16 15:23:36,929 [MTechServices] [26] INFO  MTechServices.Models.DAL.ConfigDAL - GetDeletedRequestCenters(02/16/2015 15:18:41) Execute Time: 0 ms
+2015-02-16 15:23:36,944 [MTechServices] [34] INFO  MTechServices.Models.DAL.ConfigDAL - GetRequestCenters(02/16/2015 15:18:41) Execute Time: 0 ms
+2015-02-16 15:23:36,962 [MTechServices] [29] INFO  MTechServices.Models.DAL.ConfigDAL - GetDeletedValidRequestsResults(02/16/2015 15:18:41) Execute Time: 0 ms
+2015-02-16 15:23:36,977 [MTechServices] [23] INFO  MTechServices.Models.DAL.ConfigDAL - GetValidRequestsResults(02/16/2015 15:18:41) Execute Time: 0 ms
+2015-02-16 15:23:37,039 [MTechServices] [24] INFO  MTechServices.Models.DAL.ConfigDAL - GetDeletedWOTexts(02/16/2015 15:18:41) Execute Time: 15 ms
+2015-02-16 15:23:37,065 [MTechServices] [27] INFO  MTechServices.Models.DAL.ConfigDAL - GetWOTexts(02/16/2015 15:18:41) Execute Time: 16 ms
+2015-02-16 15:23:37,106 [MTechServices] [33] INFO  MTechServices.Models.DAL.ConfigDAL - GetDeletedTimeTypes(02/16/2015 15:18:41) Execute Time: 0 ms
+2015-02-16 15:23:37,121 [MTechServices] [26] INFO  MTechServices.Models.DAL.ConfigDAL - GetTimeTypes(02/16/2015 15:18:41) Execute Time: 0 ms
+2015-02-16 15:23:37,140 [MTechServices] [34] INFO  MTechServices.Models.DAL.ConfigDAL - GetDeletedWorkers(02/16/2015 12:48:49) Execute Time: 0 ms
+2015-02-16 15:23:37,153 [MTechServices] [27] INFO  MTechServices.Models.DAL.ConfigDAL - GetWorkers(02/16/2015 12:48:49) Execute Time: 0 ms
+2015-02-16 15:23:37,181 [MTechServices] [33] INFO  MTechServices.Models.DAL.ConfigDAL - GetDeletedFacilities(02/16/2015 14:08:15) Execute Time: 0 ms
+2015-02-16 15:23:37,195 [MTechServices] [26] INFO  MTechServices.Models.DAL.ConfigDAL - GetFacilities(02/16/2015 14:08:15) Execute Time: 0 ms
+2015-02-16 15:23:37,315 [MTechServices] [29] INFO  MTechServices.Controllers.AccountsController - GetFilters/secprimaryID => 
+1000000257
+2015-02-16 15:23:37,316 [MTechServices] [29] INFO  MTechServices.Models.DAL.ConfigDAL - GetFilters(1000000257) Execute Time: 15 ms
+[MTechServices Stop]
