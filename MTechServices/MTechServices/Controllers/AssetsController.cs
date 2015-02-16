@@ -15,6 +15,7 @@ namespace MTechServices.Controllers
 {
     public class AssetsController : ApiController
     {
+        //Nahid Test
         private static readonly ILog logger = LogManager.GetLogger(typeof(AccountsController));
         private ConfigDAL _configDAL;
         private ConfigDAL configDAL

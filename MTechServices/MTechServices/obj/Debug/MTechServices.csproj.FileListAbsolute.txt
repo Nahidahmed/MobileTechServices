@@ -79,3 +79,30 @@ D:\Repository\Development\MobileTech Suite\MTechServices\MTechServices\bin\Syste
 D:\Repository\Development\MobileTech Suite\MTechServices\MTechServices\obj\Debug\MTechServices.csprojResolveAssemblyReference.cache
 D:\Repository\Development\MobileTech Suite\MTechServices\MTechServices\obj\Debug\MTechServices.dll
 D:\Repository\Development\MobileTech Suite\MTechServices\MTechServices\obj\Debug\MTechServices.pdb
+D:\Repository\GitHub\MobileTechServices\MTechServices\MTechServices\bin\MTechServices.dll.config
+D:\Repository\GitHub\MobileTechServices\MTechServices\MTechServices\bin\MTechServices.dll
+D:\Repository\GitHub\MobileTechServices\MTechServices\MTechServices\bin\MTechServices.pdb
+D:\Repository\GitHub\MobileTechServices\MTechServices\MTechServices\bin\Microsoft.Web.Infrastructure.dll
+D:\Repository\GitHub\MobileTechServices\MTechServices\MTechServices\bin\Newtonsoft.Json.dll
+D:\Repository\GitHub\MobileTechServices\MTechServices\MTechServices\bin\System.Net.Http.Formatting.dll
+D:\Repository\GitHub\MobileTechServices\MTechServices\MTechServices\bin\System.Web.Helpers.dll
+D:\Repository\GitHub\MobileTechServices\MTechServices\MTechServices\bin\System.Web.Http.dll
+D:\Repository\GitHub\MobileTechServices\MTechServices\MTechServices\bin\System.Web.Http.WebHost.dll
+D:\Repository\GitHub\MobileTechServices\MTechServices\MTechServices\bin\System.Web.Mvc.dll
+D:\Repository\GitHub\MobileTechServices\MTechServices\MTechServices\bin\System.Web.Razor.dll
+D:\Repository\GitHub\MobileTechServices\MTechServices\MTechServices\bin\System.Web.Webpages.Deployment.dll
+D:\Repository\GitHub\MobileTechServices\MTechServices\MTechServices\bin\System.Web.Webpages.dll
+D:\Repository\GitHub\MobileTechServices\MTechServices\MTechServices\bin\System.Web.Webpages.Razor.dll
+D:\Repository\GitHub\MobileTechServices\MTechServices\MTechServices\bin\System.Web.Razor.xml
+D:\Repository\GitHub\MobileTechServices\MTechServices\MTechServices\bin\System.Web.Webpages.xml
+D:\Repository\GitHub\MobileTechServices\MTechServices\MTechServices\bin\System.Web.Webpages.Deployment.xml
+D:\Repository\GitHub\MobileTechServices\MTechServices\MTechServices\bin\System.Web.Webpages.Razor.xml
+D:\Repository\GitHub\MobileTechServices\MTechServices\MTechServices\bin\System.Web.Helpers.xml
+D:\Repository\GitHub\MobileTechServices\MTechServices\MTechServices\bin\System.Web.Mvc.xml
+D:\Repository\GitHub\MobileTechServices\MTechServices\MTechServices\bin\Newtonsoft.Json.xml
+D:\Repository\GitHub\MobileTechServices\MTechServices\MTechServices\bin\System.Net.Http.Formatting.xml
+D:\Repository\GitHub\MobileTechServices\MTechServices\MTechServices\bin\System.Web.Http.xml
+D:\Repository\GitHub\MobileTechServices\MTechServices\MTechServices\bin\System.Web.Http.WebHost.xml
+D:\Repository\GitHub\MobileTechServices\MTechServices\MTechServices\obj\Debug\MTechServices.csprojResolveAssemblyReference.cache
+D:\Repository\GitHub\MobileTechServices\MTechServices\MTechServices\obj\Debug\MTechServices.dll
+D:\Repository\GitHub\MobileTechServices\MTechServices\MTechServices\obj\Debug\MTechServices.pdb

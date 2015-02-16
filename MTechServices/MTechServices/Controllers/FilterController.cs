@@ -13,7 +13,7 @@ using System.Web.Http;
 namespace MTechServices.Controllers
 {
     public class FilterController : ApiController
-    {
+    { 
         private static readonly ILog logger = LogManager.GetLogger(typeof(AccountsController));
         private ConfigDAL _configDAL;
         private ConfigDAL configDAL
