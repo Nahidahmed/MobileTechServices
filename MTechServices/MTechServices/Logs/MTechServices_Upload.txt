@@ -1297,3 +1297,7 @@ The statement has been terminated. StackTrace:   at System.Data.SqlClient.SqlCon
 13-02-2015 11:30:08 MobileTechFilters Update: FilterName: Default
 -----------------------------------------------------------------------------------------------------------------------------
 13-02-2015 11:38:18 MobileTechFilters Update: FilterName: Default
+-----------------------------------------------------------------------------------------------------------------------------
+16-02-2015 16:38:16 MobileTechFilters Update: FilterName: Default
+-----------------------------------------------------------------------------------------------------------------------------
+16-02-2015 16:38:44 MobileTechFilters Update: FilterName: Default
